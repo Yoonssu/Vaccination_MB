@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "673461224483",
+    "project_id": "mobileapp-d3111",
+    "storage_bucket": "mobileapp-d3111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673461224483:android:88791522056549286cdd96",
+        "android_client_info": {
+          "package_name": "com.example.vaccination"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673461224483-i67j2s3qvolo8p69u77fn4fk0mftnh22.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaccination",
+            "certificate_hash": "96cb3a62418ee7c239c506a2bf52d6145489669e"
+          }
+        },
+        {
+          "client_id": "673461224483-ks4h3j6h8gt8s0bgu1nhlmknv05s2nh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-e75CA33G34HKvmZruafebtBldZCndOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673461224483-ks4h3j6h8gt8s0bgu1nhlmknv05s2nh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

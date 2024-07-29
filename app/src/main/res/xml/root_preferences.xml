@@ -1,0 +1,62 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<!-- 설정화면 변경 가능-->
+
+
+<!--   PreferenceCategory = 그룹으로 묶어줌 -->
+    <PreferenceCategory app:title="화면 설정
+">
+
+<!--       key = id -->
+
+        <ListPreference
+            app:defaultValue="#000000"
+            app:entries="@array/my_text_color"
+            app:entryValues="@array/my_text_color_values"
+            app:key="color"
+            app:title="글자 색 선택"
+            app:useSimpleSummaryProvider="true" />
+
+
+<!--        useSimpleSummaryProvider 값 요약해서 보여줌-->
+
+<!--        app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"  => values 에 arrays -->
+
+        <ListPreference
+            app:defaultValue="#80b9ba"
+            app:entries="@array/my_color"
+            app:entryValues="@array/my_color_values"
+            app:key="backgroundcolor"
+            app:title="배경 색 선택"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="13.0f"
+            app:entries="@array/my_size"
+            app:entryValues="@array/my_size_values"
+            app:key="size"
+            app:title="글자 크기 선택"
+            app:useSimpleSummaryProvider="true" />
+
+        <!-- 글자 두께 선택 -->
+        <ListPreference
+            app:defaultValue="normal"
+            app:entries="@array/my_weight"
+            app:entryValues="@array/my_weight_values"
+            app:key="weight"
+            app:title="글자 두께 선택"
+            app:useSimpleSummaryProvider="true" />
+
+
+
+        
+
+    </PreferenceCategory>
+
+
+
+
+
+</PreferenceScreen>
